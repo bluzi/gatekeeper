@@ -3,8 +3,8 @@ const SerialPort = require('serialport');
 
 const INTERVAL_MS = 100;
 const SERVER_URL = 'http://example.com/';
-const RATE = 57600;
-const SERIAL_PORT = '/dev/tty-usbserial1';
+const RATE = 9600;
+const SERIAL_PORT = 'COM4';
 const SIGNAL_TEXT = '1';
 
 let lastOpened;
