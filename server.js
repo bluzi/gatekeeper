@@ -18,4 +18,5 @@ const handleRequest = (req, res) => {
 };
 
 const server = http.createServer(handleRequest);
+console.log(`running on port ${PORT}`);
 server.listen(PORT, IP);
