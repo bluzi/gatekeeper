@@ -24,7 +24,7 @@ const openGate = () => {
 	  console.log('message written');
 	});
 };
-
+/*
 setInterval(() => {
 	request(SERVER_URL, (err, res, body) => {
 		const result = JSON.parse(body);
@@ -35,3 +35,4 @@ setInterval(() => {
 		}
 	});
 }, INTERVAL_MS);
+*/
