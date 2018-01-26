@@ -8,7 +8,7 @@ from time import time
 
 s = Serial("COM4", 115200)
 
-SERVER_URL = "https://cookie-gatekeeper.herokuapp.com/"
+SERVER_URL = "https://cookie-gatekeeper.herokuapp.com/api"
 INTERVAL = 0.1
 
 lastOpened = 0;
